@@ -1,0 +1,47 @@
+
+tr, td {
+	border: 1px solid #000000;
+}
+
+tr {
+	height: 100px;
+}
+
+td {
+	width: 100px;
+	height: 100px;
+	border-radius: 5px;
+	background-color: #1b1818;
+}
+
+td i {
+	transform: rotateY(90deg);
+}
+
+table {
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px solid #7f6d6d;
+	border-spacing:10px;
+	border-radius: 10px;
+	background: -webkit-linear-gradient(left top, green , blue); /* Safari 5.1 - 6.0 */
+  	background: -o-linear-gradient(bottom right, green, blue); /* Opera 11.1 - 12.0 */
+  	background: -moz-linear-gradient(bottom right, green, blue); /* Firefox 3.6 - 15 */
+  	background: linear-gradient(to bottom right, green , blue); /* 标准的语法 */
+  	box-shadow: 10px 10px 5px grey;
+}
+
+main {
+	width: 500px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.mov {
+	float: left;
+	margin-left: 120px;
+}
+
+.open {
+	
+}
